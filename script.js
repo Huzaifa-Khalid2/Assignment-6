@@ -21,3 +21,7 @@ function myFunction () {
     alert('$10.00 + $2.50 + 13% so you must pay $14.13')
   }  else if ((pizzasize = 'Extralarge') && (topping = '4')) {
     alert('$10.00 + $3.35 + 13% so you must pay $15.09')
+  } else {
+    alert('undifined please enter both toppings and pizza size')
+  } 
+}
